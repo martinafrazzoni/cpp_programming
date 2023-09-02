@@ -1,0 +1,95 @@
+int main(){
+    ofstream file_parola_clean("parola_segreta.txt"); 
+    file_parola_clean.close(); 
+
+    ofstream file_parola("parola_segreta.txt");
+    if (!file_parola)
+        cerr<< "Errore! Impossibile aprire il file in scrittura!"; 
+    /*la squadra A sceglie la parola*/
+    const int dim_parola = 20; 
+    char parola_segreta[dim_parola]; 
+    cout << "Inserici una parola: "; 
+    cin>>parola_segreta; 
+    file_parola<<parola_segreta << endl;  
+    int lunghezza = strlen(parola_segreta); 
+    // ho aggiunto il terminatore. 
+    parola_segreta[lunghezza] = '\0'; 
+  
+    
+    /*la squadra b1 inserisce gli indizi.*/
+    int numero_indizi; 
+    cout << "Quanti indizi vuoi immettere: "; 
+    cin>>numero_indizi; 
+    char indizio[dim_parola]; 
+
+
+    // creo un altro file dove memorizzare gli indizi
+    ofstream file_indizi; 
+    file_indizi.open("indizi.txt", ios_base::app); 
+    if (!file_indizi)
+        cerr << "Errore nell'apertura del file in scrittura!"; 
+    else{
+        for (int i = 1; i <= numero_indizi; i++){
+            cout << "Inserisci indizio  ("<< i << " / " << numero_indizi << "): ";
+            cin>>indizio;
+            file_indizi<<indizio << endl; 
+        }
+    }
+    file_parola.close(); 
+
+    cout << endl; 
+
+    ifstream file_indizi_lett ("indizi.txt"); 
+    if (! file_indizi_lett)
+        cerr << "Errore: impossibile aprire il file in lettura!"; 
+    
+    // facciamo vedere gli indizi. 
+    cout << "Ecco gli indizi: " << endl; 
+    int conta = 0; 
+    while (file_indizi_lett>>indizio){
+        cout << indizio << endl; 
+    }
+    file_indizi_lett.close();
+
+    // punteggio
+    int punteggio = 50; 
+    const int dim_parola_tentativo = 20; 
+    char parola_tentativo [dim_parola_tentativo]; 
+    // ora gioca la squadra b2. 
+
+    do{
+        cout << "Inserisci la parola tentativo: " << endl; 
+        cin>>parola_tentativo; 
+
+        int lunghezza_tent = strlen(parola_tentativo); 
+        parola_tentativo[lunghezza_tent] = '\0'; 
+
+        if (strcmp(parola_tentativo, parola_segreta) == 0){
+            cout << "Hai indovinato la parola segreta!"<< endl; 
+            cout << "Punteggio: " << punteggio << endl; 
+            break;
+        }
+        else{
+            cout << "Parola non trovata, rirpova di nuovo!" << endl; 
+            punteggio--; 
+            cout << "Punteggio: " << punteggio << endl; 
+            string lettere_trovate = "";  
+            int indice = 0; 
+            for (int j = 0; j < dim_parola; j++){
+                for(int i = indice; i < dim_parola_tentativo; i++){
+                    if (parola_segreta[j] == parola_tentativo[i]){
+                        lettere_trovate += parola_segreta[j]; 
+                        indice = i + 1; 
+                        break;
+                    }
+                }   
+            }
+            cout << endl; 
+            cout << "Ecco le lettere in comune che sono state trovate: " << endl; 
+            cout << lettere_trovate << endl; 
+            cout << endl; 
+        }
+    }
+    while(strcmp(parola_tentativo, parola_segreta) != 0); 
+    return 0; 
+}

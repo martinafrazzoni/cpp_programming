@@ -1,0 +1,54 @@
+Nel main: 
+	-> devo definire 2 vettori di interi. 
+	const int dim_a = 10; // costante che mi dà la dimensione del mio primo array
+	int a [dim_a] = {2, 5, 9, 3, 7, 1, 5, 9, 3, 4}; 
+	
+	il secondo vettore non so ancora quanto sarà lungo, intanto gli dò le stesse dimensioni di a. 
+	int b [dim_a]; // questo è il mio secondo array. 
+
+	-> definisco anche la variabile che mi contiene il valore da cercare se viene ripetuto. 
+	int da_trovare; 
+	
+Fuori dal main, devo scrivere una funzione che mi trovi quante volte un numero viene ripetuto all'interno del mio array. Devo trovare le occorrenze. 
+
+int trova_occorrenze (int a [ ], int dim_a, int da_trovare); 
+	-> come parametri attuali gli passo: il mio vettore a, le sue dimensioni, e il numero che deve trovare se viene ripetuto più volte. 
+	-> scrivo il corpo della funzione: ho un ciclo for, che mi va da 0 fino alla fine del mio vettore, per ogni indice guardo se 	l'elemento contenuto in quella posizione è uguale al numero che devo trovare. Quando l'ho trovato, il mio contatore aumenta di una 	unità, e la funzione mi restituisce il valore del contatore. 
+
+int trova_occorrenze (int a [ ], int dim_a, int da_trovare){
+	int conta_occorrenze; 
+	for (int i = 0; i < dim_a; i++){
+		if (a[i] == da_trovare)
+			conta_occorrenze++; 
+	}
+	return conta_occorrenze; 
+}
+
+Adesso che ho scritto la funzione che mi trova quante volta è ripetuto un numero all'interno dell'array, ne devo scrivere un'altra che, dato ogni elemento del mio array, calcola quante volte viene ripetuto il suo valore, se è ripetuto più di 1 volta, allora la funzione lo prende e lo sposta nel mio secondo array b. La funzione mi deve ritornare il numero di elementi presenti nel secondo array. 
+
+int crea_array_di_singoli(); 
+	-> alla funzione gli devo passare il mio array a, perchè lo scorra. Poi le dimensioni dell'array a, e anche l'array b. 
+
+int crea_array_di_singoli(int a[ ], int dim_a, int b[ ]); 
+	-> nel corpo della funzione definire il contatore che mi tiene conto del numero di elementi di b. poi per ogni elemento all'interno del mio array, invoco la funzione trova_occorrenze(); mi guarda quante volte un elemento dell'array a viene ripetuto, se viene ripetuto più di 1 volta, lo sposta nell'array in posizione b[j] con i che aumenta ogni volta. 
+
+int crea_array_di_singoli(int a[ ], int dim_a, int b[ ]){
+	int conta_elementi_b; 
+	if (trova_occorrenze(a, dim_a, a[i]) == 1)
+		b[conta_elementi_b] = a[i]; 
+	return conta_elementi_b; 
+}
+
+A questo punto sappiamo anche qual'è la lunghezza del vettore b, è lungo conta_b_elementi. 
+Nel main, dichiariamo una variabile che mi contiene il valore di ritorno della funzione crea_array_di_singoli(int a[ ], int dim_a, int b[ ]); 						
+
+int lunghezza_b = crea_array_di_singoli(a, dim_a,b);
+
+Poi stampiamo i due vettori. 
+ - Stampa a: 
+for (int i = 0; i < dim_a; i++){
+	cout << a[i]; 
+
+- Stampa b: 
+for (int i = 0; i < lunghezza_b; i++){
+	cout << b[i]; 						

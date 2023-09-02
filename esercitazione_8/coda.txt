@@ -1,0 +1,86 @@
+implementiamo l'inserimento in coda tramite l'array circolare. 
+
+// l'array circolare si implementa tramite un array lineare, quindi lo vado a definire. 
+
+const int max_elem = 10; // numero massimo di elementi che può contenere il mio array. 
+
+//inizializzo l'array
+int a [max_elem] = {0, 0, 3, 6, 2, 1, 4, 2, 7, 6}
+
+ 
+
+// per trovare il primo elemento occupato devo sapere quanto è effettivamente lungo l'arrayy
+int lungh_a = sizeof(a) / sizeof(a[0]); 
+
+for (int i = 0; i < lungh_a; i++){
+	if (a[i] != 0)
+		inizio = i; 
+		break; 
+}
+
+// per trovare l'ultimo elemento occupato, parto dal fondo, il primo elemento che ha valore diverso da 0, lì vado a mettere il puntatore che indica la fine. 
+
+for (int i = lungh_a; i <=0; i--){
+	if (a[i] != 0)
+		i = fine; 
+		break; 
+
+// adesso so qual'è l'inizio e la fine del mio array circolare. 
+// conto quanti elementi ci sono: 
+
+int quanti_elem = 0; 
+for (int i = inizio; i < fine; i++){
+	quanti_elem++; 
+}
+
+int indice; 
+int valore; 
+// chiedo all'utente in che posizione vuole inserire il valore.
+
+cout << "Inserisci indice: " << endl; 
+cin>> indice; 
+
+cout << "Inserisci valore: " << endl; 
+cin>>valore; 
+
+for (int i = 0; i < max_elem; i++){
+	a[indice] = valore; 
+	if (indice == fine)
+		fine = (fine+1) % max_elem; 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do{
+cout << "Inserisci l'indice in cui vuoi inserire il nuovo elemento: " << endl; 
+cin>>indice; }
+while (indice < 0 || indice >=10); 
+
+cout << "Inserisci il valore dell'elemento: "; 
+cin>>valore; 
+
+inserisco l'elemento: 
+for (int i = 0; i < max_elem; i++){
+	if (i == indice){
+		a[i] = valore; 
+	}
+
+
+

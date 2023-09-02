@@ -1,0 +1,37 @@
+allora, abbiamo due giocatori: 
+- ognuno ha una pedina 
+quando si lancia un dado, il dado restituisce valori uniformemente distribuiti tra 1 e 6, i giocatori muovono la loro pedina su N caselle consecutive. 
+Quando implemento le funzionalità di nuove partita: 
+-> la pedina di ciascun giocatore è posizionata nella prima casella, il giocatore che comincia è il giocatore 1.  
+
+// i giocatori si muovono su N caselle consecutive. 
+
+const int N = 6; 
+const int caselle[N]; 
+
+Ad inzio partita, parte il giocatore 1 che si trova in posizione zero.
+int pos_giocatore_1 = 0; 
+int pos_giocatore_2 = 0; 
+
+// invochiamo la funzione del lancio del dado
+dado = numero risultante dal lancio del dado. 
+quindi la posizione del giocatore_1 all'interno dell'array è pari a pos_giocatore_1 + dado. 
+pos_giocatore_1 = giocatore_1 + dado. 
+
+adesso è il turno del giocatore 2, e anche lui si trova in posizione 0. 
+invochiamo la funzione che lancia il dado, e la nuova posizione del giocatore 2 sarà: 
+pos_giocatore_2 = giocatore_2 + dado; 
+
+// facciamo il controllo se la posizione del giocatore_1 o del giocatore_2 è maggiore o uguale al numero massimo di caselle. 
+
+if giocatore_1 >= max = partita_finita
+il giocatore 1 è il vincitore
+if giocatore_2 >= max = partita_finita
+
+else prossimo turno. 
+
+quindi la posizione dei giocatori è iinferiore a M allora si continua a giocare: 
+- viene rilanciato di nuovo iil dado.
+ 
+
+

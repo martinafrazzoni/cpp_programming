@@ -1,0 +1,26 @@
+io ho un array di caratteri, ogni carattere lo devo convertire un codice ASCII
+
+char messaggio [] = "Ciao mondo"; 
+int lunghezza = strlen(messaggio); 
+
+ const int max_lun_mess = 50; 
+  int messaggio_ASCII[max_lun_mess]; 
+
+// scorro il vettore contenente tutti i caratteri. 
+for (int i = 0 ; messaggio[i] != '\0'; i++){
+	messaggio[i] = static_cast<int>(messaggio[i]; 
+}
+
+for (int i = 0; i < lunghezza; i++){
+        cout << messaggio_ASCII[i] << " "; 
+    }
+// ho il mio messaggio trasformato in codici ASCII.
+
+adesso devo passare ogni elemento del mio  vettore, alla funzione che cripta il messaggio. 
+
+int cripta_vettore ( int messaggio_ASCII [] , int lunghezza){
+for (int i = 0; i < lunghezza; i++){
+	messaggio_ASCII[i] = cifra(messaggio_ASCII[i]); 
+}
+for (int i = 0; i < lunghezza; i++){
+cout << messaggio_ASCII[i] << endl; 

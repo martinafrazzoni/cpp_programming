@@ -1,0 +1,62 @@
+if ((nastri[0][0] == '<' || nastri[0][0] == '^') || (nastri[0][num_sez-1] == '>' || nastri[0][num_sez-1] == '^')) {
+		cout << "FUORI!" << endl; 
+		return false; 
+	} 
+
+	if ((nastri[1][0] == '<' || nastri[1][0] == 'V') || (nastri[1][num_sez-1] == '>' || nastri[1][num_sez-1] == 'V')){
+		cout << "FUORI!" << endl; 
+		return false; 
+	}
+
+// stampo la prima casella della matrice
+	cout << nastri[0][0] << endl; 
+	cout << nastri[0][num_sez-1] << endl; 
+	cout << nastri[1][0] << endl;
+	cout << nastri[1][num_sez-1] << endl;  
+
+if (nastri[0][0] == '<' || nastri[0][0] == '^'){
+	cout << "FUORI!" << endl; 
+		return false; 
+	} 
+
+	if (nastri[0][num_sez-1] == '>' || nastri[0][num_sez-1] == '^'){
+		cout << "FUORI! 1" << endl; 
+		return false; 
+	}
+
+	if (nastri[1][0] == '<' || nastri[1][0] == 'v'){
+		cout << "FUORI! 2" << endl; 
+		return false; 
+	} 
+
+	if (nastri[1][num_sez-1] == '>' || nastri[1][num_sez-1] == 'v'){
+		cout << "FUORI! 3" << endl; 
+		return false; 
+	}
+	// faccio il controllo delle righe. 
+	/*for (int i = 1; i < num_nastri-1; i++){
+		if(trova_carattere(nastri, 0, i, '^')){
+			cout << "FUORI"; 
+			return false; 
+		}
+	}
+	
+	for (int j = 1; j < num_nastri-1; j++){
+		if(trova_carattere(nastri, 1, j, 'V')){
+			cout << "FUORI"; 
+			return false; 
+		}
+	}*/
+	return true; 
+
+
+bool stampa_nuova_posizione(int n, int s, char**&nastri, const int num_nastri, int&num_sez){
+	// faccio il controllo sugli estremi della matrice; 
+		for (int i = 0; i < num_nastri; i++) {
+			if (nastri[i][0] == '<' || nastri[i][0] == '^' || nastri[i][num_sez-1] == '>' || nastri[i][num_sez-1] == '^') {
+			cout << "FUORI!" << endl;
+			return false;
+			}
+		}
+		return true; 	
+}

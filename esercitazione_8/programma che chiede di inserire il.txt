@@ -1,0 +1,101 @@
+programma che chiede di inserire il nome di un partecipante ad una gara di SCI e il tempo che ha fatto registrare espresso in minuti e secondi. 
+programma memorizza i dati in un oggetto di tipo struttura che contiene_ 
+- stringa (nominativo)
+- valore intero (tempo in secondi). 
+
+stampo a video i dati appena memorizzati esprimendo il tempo in minuti e secondi, e stampa la lunghezza della stringa. 
+
+#include <iostream>
+#include <cstring>
+using namespace std; 
+
+int main(){
+	struct gara_di_sci{
+
+		char nome [20]; 
+		int tempo_minuti; 
+		int tempo_secondi; 
+	}; 
+}
+
+gara_di_sci partecipante;   
+
+cout << "Inserisci nominativo: " << endl; 
+cin>>partecipante.nome; 
+
+cout << "Tempo di " << partecipante.nome << "(minuti e secondi): "; 
+cin>>partecipante.tempo_minuti >> partecipante.tempo_secondi; 
+
+cout << "Il vincitore è << partecipante.nome << "con il tempo di " << partecipante.tempo_minuti << " minuti e " << partecipante.tempo_secondi << "secondi " << endl; 
+
+// lunghezza stringa
+int lunghezza_stringa = strlen(partecipante.nome); 
+cout << "Il nominativo contiene una stringa di " << lunghezza_stringa << "caratteri" << endl; 
+
+
+struct coordinata {
+	int x; 
+	int y; 
+}
+coordinata p1, p2; // sono oggetti del tipo corrdinata. 
+
+struct coor {
+	int x; 
+	int y;
+}
+
+int k; 
+
+p2 = p1; // si può fare perchè è un assegnamento tra oggetti dello stesso tipo struttura. 
+p1 = t2; // non si può fare, oggetti di tipi strutturati diversi. 
+t2 = t1 // si ouò fare perchè è un assegnamento tra gli oggetti dello stesso tipo struttura. 
+k = p1 // non si può fare, perchè k è un intero, e p1 è un oggetto di una struttura. 
+
+p2 = {1, {1, 2, 5, 4, 2}}
+
+
+// esercizio gara di sci - struct
+
+2 fasi: 
+	1. iscrizione partecipanti
+	2. fase di gara (immettere il tempo di discesa). 
+
+per ogni partecipante i dati sono: 
+- nominativo: cognome del partecipante (stringa)
+- tempo (intero). 
+
+le funzionalità da implementare sono: 
+-> iscrizione di un nuovo partecipante (inseriamo il cognome) e stampiamo il numero di partecipanti. 
+
+// struttura dati: 
+
+1. mi serve una struct di partecipanti, e per ogni partecipante ci sono 2 campi: il cognome e il tempo. durante l'iscrizione, ci sarà ovviamente solo il cognome. Chiedo in input il cognome. avrò una funzione che si chiama ins_partecipanti, chiedo il cognome e lo vado a mettere nella mia struct. 
+struct pdati: 
+char cognome; // stringa. 
+Poi ho un array di dati. // ogni elemento dell'array sarebbe il mio partecipante, e lì dentro ci sono i dati, che sono i campi della mia struct. 
+
+// il numero massimo di partecipanti è uguale a 50. 
+const int max = 50; 
+
+struct dati{
+	char cognome; 
+	int tempo; 
+}
+dati partecipante[max]; // nuovo oggetto di tipo dati. che sono i miei partecipanti fisici. 
+int posizione = 0; 
+int conta_iscritti = 0; 
+ 
+// per l'iscrizione alla gara di sci, io ho il mio array partecipante [max] a cui dovrò aggiungere un elemento alla volta. 
+
+// chiedo in input il nominativo. 
+cout << "Inserisci il cognome: ";, 
+cin>>partecipante[posizione].cognome; 
+posizione++; 
+conta_iscritti++; 
+
+cout << "Il numero di iscritti alla gara è pari a:  " conta_iscritti++ << endl;  
+
+
+
+
+

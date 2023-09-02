@@ -1,0 +1,8 @@
+char lettere_trovate[] = " "; 
+int trovate = 0; 
+
+for(int i = 0; i < dim_parola_tentativo; i++){
+	for(int j = 0; j < dim_parola; i++)
+		if a[i] == a[j]
+			lettere_trovate[trovate] = a[i]; 
+			lettere_trovate++; 

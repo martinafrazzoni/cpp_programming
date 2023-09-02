@@ -1,0 +1,34 @@
+GESTIONE TURNI DI LAVORO. 
+
+Elenco di lavoratori (nome di max 10 caratteri).
+i turni riguardano una settimana di 7 gg. Per ciascun lavoratore e giorno della settimana il programma dice se quel lavoratore è di turno o meno. 
+
+all'inizio del programma l'elenco dei lavoratori è vuoto. 
+
+ex. io ho 3 lavoratori
+
+
+il programma gestisce un elenco di lavoratori, quindi io avrò un array di lavoratori. 
+
+
+Martina   
+Luisa		per ognuno il programma memorizza se deve lavorare o meno. quindi ci sarà un 		array lungo 7 ( che sono i giorni della settimana), e per ogni elemento 		dell'array si segna se quel lavoratore è di turno o meno. 
+Matteo
+
+lavoratori: 
+martina		luisa	matteo	luca	
+   |		   |
+   v		   V
+LMMGVSD		LMMGVSD
+**_*__*		*__**_*
+
+
+Struttura dati: 
+const char lung_nome = 10
+const char nome_lavoratore[lung_nome+1]; // array che mi contiene il nome del lavoratore. 
+
+// devo sapere anche quanti lavoratori ci sono nell'elenco. 
+
+int num_lavoratori = 10; 
+
+io ho una struttrra dove per ogni lavoratore ho il suo nome, e un array di turni (l'array però essere un array di bool, dove per ogni giorno controllo se è vero che è di turno o di riposo). 

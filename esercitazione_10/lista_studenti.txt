@@ -1,0 +1,39 @@
+lista di studenti iscritti ad un esame. 
+
+ogni studente ha solo il cognome -> una struct che ha come campo solo il cognome. 
+
+il programma deve implementare: 
+-> iscrizione di uno studente, 
+-> stampa numero di iscritti e dei nominativi. 
+
+quindi, ho un insieme di persone e per ogni persona ho un campo specifico, ovvero il cognome. Ho quindi un array di struct. in questo array ci devo aggiungere uno studente alla volta, e poi dopo stampo tutti gli iscritti con anche i nomi. 
+
+struttura dati: 
+una struct studente, e poi un oggetto di tipo studente che si chiama iscritti. e una variabile contatore che mi tiene in memoria il numero di iscritti. 
+
+sto inserendo il nuovo studente dentro un array, so la lunghezza massima dell'array ma non quanti elementi effettivamente vado ad inserire, potrebbero essercene anche meno, quindi: 
+mi serve una variabile che mi conta il numero di iscritti: 
+leggo il nominativo e lo metto dentro l'elemento di indice 0 dell'array e poi ad ogni iscrizione incremento, così che so quanti iscritti effettivamente ci sono. 
+int posizione = 0; // totale iscritti all'esame. 
+iscrizioni[posizione].nominativo; 
+
+// per stampare il numero di iscritti, alla funzione gli devo passare l'array, il numero effettivo di quanti iscritti ci sono. 
+// devo ordinare gli iscritti in ordine alfabetico utilizzando la funzione strcmp(), che compara le due stringhe. se   strcmp(nome1, nome2) > 0 => nome2 precede alfabeticamente nome1 
+
+Quindi: ciclo for esterno di indice i che mi scorre il mio array dall'inizio alla fine -1,, e un secondo ciclo di indice j che mi scorre l'array dalla posizione di indice 1 fino alla fine. 
+
+quindi se il nominativo in posizione j è maggiore del nominativo in posizione i, si fa lo swap. 
+int temp; 
+temp = iscrizioni[i].nominativo; 
+nominativo[i].iscrizioni = iscrizioni[j].nominativo; 
+iscrizioni[j].nominativo = temp;  
+MA SONO ARRAY DI CARATTERI, NON POSSO FARE L'ASSEGNAMENTO E DEVO USARE STRCPY. 
+
+//voglio chiedere anche nome e cognome, quindi nella funzione in locale creo una variabile nome, e un'altra per il cognome, e poi le concateno e le copio dentro la iscrizione[i].nominativo. per concatenarle uso strcat e per copiarle strcpy. 
+quando le devo concatenare devo assicurarmi che la prima lettera del nome sia Maiuscola e tutte le altre minuscole. 
+quindi faccio la conversione toupper e tolower, e poi in mezzo ci metto anche uno spazio bianco. 
+
+// per disiscrivere uno studente, si toglie dalla testa e lo si inserisce dal fondo. 
+
+
+

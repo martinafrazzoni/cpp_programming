@@ -1,0 +1,71 @@
+funzione che: 
+prende in ingresso una stringa e
+- la prima lettera se è minuscola la converte in maiuscolo.
+- tutte le seguenti diventano lettere minuscole. 
+
+char stringa [20]; 
+cout << "Inserisci una stringa: \n"; 
+cin>>stringa; 
+int lunghezza = strlen(stringa); 
+int maiuscola = 0; 
+
+stringa[maiuscola] = tolower(stringa[maiuscola]); 
+for (int j = 1; j < lunghezza; j++)
+stringa[j] = tolower(stringa[j]); 
+
+-------
+
+io ho nome e cognome memorizzati in una stringa
+char stringa [] = "tOmBa alBERto"; 
+int lunghezza = strlen(stringa). 
+
+scorro la prima stringa fino allo spazio bianco. 
+int maiuscola = 0; 
+stringa[maiuscola] = toupper(stringa[maiuscola]); 
+
+
+int indice_spazio; 
+for (int i = 1; i < lunghezza; i++)
+if (stringa[i] == " "); 
+indice_spazio = i; 
+
+for (int j = 1; j < stringa[i] != " "; i++
+stringa[j] = tolower(striinga[j] 
+
+----
+La lista è: 
+Frazzoni
+Canzano
+
+dentro partecipante[i].cognome c'è Frazzoni
+dentro partecipante[j].cognome c'è Canz. 
+
+se io faccio strcmp ovvero comparazione tra le due stringhe: 	(partecipante[i].cognome, partecipante[j].cognome)
+se il risultato è > 0: vuol dire che partecipante[j].cognome viene PRIMA di partecipante[i].cognome
+QUINDI DEVO FARE LO SWAP
+
+mi serve un array di char temporaneo 
+char temp[10]; 
+
+strcpy(temp ,partecipante[j].cognome); 
+strcpy(partecipante[j].cognome, partecipante[i].cognome); 
+strcpy(partecipante[i].cognome, temp); 
+
+----- 
+stampa primo, secondo, terzo classificato
+io ho un array dei tempi inseriti: li ordino in ordine crescente. dal più grande al più piccolo. li copio in un'altro array di massimo tre elementi e stampo il primo, il secondo e il terzo classificato. 
+
+ordiniamo in ordine crescente l'array dalla prima all'ultima posizione. 
+
+int min_index; 
+int temp; 
+for (int i = 0; i < posizione; i++){
+min_index = i; // supponiamo che il tempo minimo sia nella posizione di indice i. 
+	for (int j = (i+1); j < posizione; j++){
+		if (partecipante[j].tempo < partecipante[min_index].tempo
+			min_index = j; 
+	}
+temp = partecipante[min_index].tempo; 
+partecipante[min_index].tempo = partecipante[i].tempo; 
+partecipante[i].tempo = temp; 
+}

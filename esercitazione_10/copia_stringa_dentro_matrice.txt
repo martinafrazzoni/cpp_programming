@@ -1,0 +1,13 @@
+ // utilizzo un ciclo for che mi scorre il mio numero di colonne, poi nella griglia di riga 0 e numero di colonne che variano ci vado a mettere i caratteri dell'array sequenza. 
+    for (int i = 0; i < colonne; i++){
+        griglia[0][i] = sequenza[i]; 
+    }
+    
+    // provo a stampare la griglia. 
+    cout << "Provo a stampare la griglia: \n"; 
+    for (int i = 0; i < righe; i++){
+        for (int j = 0; j < colonne; j++){
+            cout << griglia[i][j] << " "; 
+        }
+        cout << endl; 
+    }

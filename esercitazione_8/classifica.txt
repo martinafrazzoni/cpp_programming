@@ -1,0 +1,20 @@
+per ogni iscritto tempo in minuti e secondi: 
+-> scorrere l'array di struct (che contiene i miei partecipanti) e per ognuno chiedo in input il tempo in minuti e secondi. 
+
+int minuti; 
+int secondi; 
+int tempo_partecipante; 
+
+cout << "Inserisci il tempo per ciascun partecipante: "; 
+for (int i = 0; i < posizione; i++){
+	cin>>minuti>>secondi; 
+	tempo_partecipante = (minuti * 60) + secondi; 
+	partecipante[i].tempo = tempo_partecipante; 
+
+per stampare il primo classificato, nel mio array di struct devo trovare il massimo e stamparlo con il suo tempo. 
+
+for (int i = 0; i < posizione; i++){
+	massimo = partecipante[i].tempo; 
+	if (partecipante[i].tempo > massimo)
+	massimo = partecipante[i].tempo; 
+}

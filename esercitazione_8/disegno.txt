@@ -1,0 +1,58 @@
+disegno.cpp
+
+-> puntatore che si sposta in 4 direzioni possibili: destra, sinitra, alto, basso. Il puntatore è visualizzato come carattere x. 
+-> tavola di caratteri quadrata, quindi abbiamo una matrice di dimensioni 20 x 20 ad esempio. 
+-> premendo uno dei tasti il puntatore si sposta. 
+
+Per far si che nel terminale compaia solo il nostro gioco, possiamo cancellare il contenutoo del terminate con la funnzione clear (che è la stessa che ci permette di pulire il temrinale). 
+
+la mia matrice di dimensioni 20x20 deve essere "vuota" non ci deve essere niente. Quindi è una matrice di caratteri, in particolare solo di spazi vuoti. 
+
+int righe  = 10; 
+int col = 10; 
+
+// è una matrice di caratteri
+char tavola [righe][col]; 
+
+for (int i = 0; i < righe; i++){
+	for (int j = 0; j < col; j++){
+	cout << "Inserisci un carattere \n"; 
+	tavola[i][j] = ' '; 
+	}
+}
+
+// stampiamo la matrice
+for (int i = 0; i < righe; i++){
+	for (int j = 0; j < col; j++){
+	cout << tavola[i][j] << " ";  
+	}
+	cout << endl; 
+}
+
+
+// mettiamo il puntatore nel centro della tavola
+[righe/2][col/2];  
+
+il centro sarà matrice [righe/2][col/2] == 'X'
+
+// adesso dobbiamo muovere il puntatore
+se l'utente inserisce il carattere 'l' da tastiera si muoverà verso sinistra (left); poi devo fare il controllo se ha raggiunto i lati della matrice oppure no. 
+
+int pos_y = col / 2; 
+int pos_x = righe / 2; 
+
+char direzione; 
+[pos_x][pos_y] = " "; 
+
+if (direzione == 'j' && pos_y > 0)
+	pos_y--; 
+if (direzione == 'l' && pos_y < col)
+	pos_y++;
+if (direzione == 'i' && pos_x > 0)
+	pos_x++; 
+if (drezione == 'k' && pos_x < riga)
+	pos_x--; 
+[pos_x][pos_y] = 'X'; 
+
+
+

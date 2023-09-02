@@ -1,0 +1,70 @@
+1) funzione somma che riceve come parametri tre vettori, v1, v2 e v3 e la loro dimensione n (quindi hanno tutti e 3 la stessa dimensione). La funzione confronta il primo elemento di v1 e il primo elemento di v2 e copia il maggiore dei due dentro v3 come primo elemento. etc. 
+
+la funzione restituisce il numero di volta in cui un elemento di v1 è risultato maggiore dell'elemento di v2 con cui è statp confrontato. 
+
+const int N = 5; 
+
+int v1[N] = {2, 12, 4, 7, 6}; 
+int v2[N] = {1, 4, 15, 5, 3}; 
+
+int v3[N] = {2, 12, 15, 7, 6}
+return 4 -> perchè v1 è risutlato maggiore di v2 4 volte. 
+
+ho un for dove scorro gli elementi di v3, if v1[i] > v2[i] -> v3[i] = v1[i], cont ++. 
+se il primo elemento di v1 è maggiore di v2 lo metto dentro v3, e poi ho una variabile contatore che mi tiene conto di tutte le volte che v1 è risultato maggiore di v2. 
+
+tutti e tre i vettori hanno la stessa dimensione.
+
+2) funzione conta che riceve in ingresso un vettore V di interi e un elemento e e restituisce quante volte e è ripetuto in V. Nel main, chiedo in input i valori del vettore fino a quando non viene inserito il numero sentinella 999. Stampa il numero che ha avuto più ripetizioni all'interno del vettore. 
+
+main: 
+const int max_dim_vett = 15; 
+int a [max_dim_vett]; 
+int e = 3; 
+int dim; 
+
+
+
+// cerco quante volte è ripetuto e dentro il vettore
+int cont = 0; 
+for (int i = 0; i < dim; i++)
+	if (a[i] == e)
+	cont ++; 
+}
+cout << e << "è ripetuto " << cont  << " volte dentro il vettore!" << endl;  
+
+poi, nel vettore, io per ogni elemento devo guardare quante volte è stato ripetuto e stampare quello che è stato ripetuto più volte
+
+int a = {15, 3, 5, 3, 7}
+for (int i = 0; i < dim; i++){
+	cout << conta(a, dim, a[i]) << endl;  
+}
+
+3) scrivere una funzione contavolte, che conta quante volte un elemento x è presente in un vettore v di n elementi. Utilizzare contavolte dentro un'altra funzione, creaunici, per costruire partendo dal vettore v1 un secondo vettore v2 che contiene solo gli elementi unici di v1. 
+
+La mia funzione che conta quante volte un elemento è presente in un vettore ce l'ho già. 
+
+int conta(int a[ ], int dim, int e){
+    int conta = 0; 
+    for (int i = 0; i < dim; i++){
+        if (a[i] == e){
+            conta++; 
+        }
+    }
+    return conta; 
+}
+
+mi ritorna il numero di elementi. 
+
+const int dim_v1 = 11; 
+int v1 [dim_v1] = { 2, 4, 3, 2, 7, 1, 3, 5, 1, 8, 9}; 
+
+v2[dim_v1]; // setto v2 alla stessa lunghezza di v1 ma non so ancora quanti elementi contiene, perchè deve contenere solo i pari di v1. 
+int dim_v2 = 0; 
+
+for (int i = 0; i < dim_v1; i++){
+	if (conta(v1, dim_v1, v1[i] == 1){
+		v2[dim_v2] = v1[i]; 
+		dim_v2++; 
+}
+
