@@ -1,0 +1,52 @@
+1. Inizializza archivio
+2. Aggiungi prodotto
+3. Stampa archivio
+4. Salva archivio
+5. Carica Archivio
+6. Leggi e elimina primo prodotto
+7. Esci
+
+
+Caricamento avvenuto con successo!
+1. Inizializza archivio
+2. Aggiungi prodotto
+3. Stampa archivio
+4. Salva archivio
+5. Carica Archivio
+6. Leggi e elimina primo prodotto
+7. Esci
+
+
+0
+1. Inizializza archivio
+2. Aggiungi prodotto
+3. Stampa archivio
+4. Salva archivio
+5. Carica Archivio
+6. Leggi e elimina primo prodotto
+7. Esci
+
+
+0
+1. Inizializza archivio
+2. Aggiungi prodotto
+3. Stampa archivio
+4. Salva archivio
+5. Carica Archivio
+6. Leggi e elimina primo prodotto
+7. Esci
+
+
+Ecco l'archivio: 
+3 5 
+16 3 
+20 4 
+1. Inizializza archivio
+2. Aggiungi prodotto
+3. Stampa archivio
+4. Salva archivio
+5. Carica Archivio
+6. Leggi e elimina primo prodotto
+7. Esci
+
+

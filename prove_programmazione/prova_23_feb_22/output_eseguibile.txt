@@ -1,0 +1,45 @@
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+*-----*	paolo
+-*-*--*	rita
+--*--**	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+

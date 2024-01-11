@@ -1,0 +1,42 @@
+1. Inizializza coda
+2. Accoda operazione
+3. Stampa operazioni
+4. Salva operazioni
+5. Carica operazioni
+6. Elimina operazione
+7. Unisci operazioni
+8. Esci
+
+
+Caricamento da file eseguito con successo!
+1. Inizializza coda
+2. Accoda operazione
+3. Stampa operazioni
+4. Salva operazioni
+5. Carica operazioni
+6. Elimina operazione
+7. Unisci operazioni
+8. Esci
+
+
+1. Inizializza coda
+2. Accoda operazione
+3. Stampa operazioni
+4. Salva operazioni
+5. Carica operazioni
+6. Elimina operazione
+7. Unisci operazioni
+8. Esci
+
+
+(+ 3) (+ 2) (- 6) (+ 4) 
+1. Inizializza coda
+2. Accoda operazione
+3. Stampa operazioni
+4. Salva operazioni
+5. Carica operazioni
+6. Elimina operazione
+7. Unisci operazioni
+8. Esci
+
+

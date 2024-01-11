@@ -1,0 +1,39 @@
+1. Inizializza eitchetta
+2. Stampa etichetta
+3. Salva etichetta
+4. Carica etichetta
+5. Inizializza etichetta2
+6. Stampa etichetta2
+7. Esci
+
+
+1. Inizializza eitchetta
+2. Stampa etichetta
+3. Salva etichetta
+4. Carica etichetta
+5. Inizializza etichetta2
+6. Stampa etichetta2
+7. Esci
+
+
+Inserisci il numero di codici a barre: 
+1. Inizializza eitchetta
+2. Stampa etichetta
+3. Salva etichetta
+4. Carica etichetta
+5. Inizializza etichetta2
+6. Stampa etichetta2
+7. Esci
+
+
+
+
+1. Inizializza eitchetta
+2. Stampa etichetta
+3. Salva etichetta
+4. Carica etichetta
+5. Inizializza etichetta2
+6. Stampa etichetta2
+7. Esci
+
+

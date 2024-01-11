@@ -1,0 +1,31 @@
+due giocatori: 0 e 1 
+ognuno ha dei combattenti. 
+
+possiamo interpretare la cosa così: ho un array che mi contiene i giocatori, ed è un array di due elementi. questo array mi può anche tenere traccia del giocatore di turno: se è di turno il g.0 o il g.1. ma ognuno di questi due giocatori ha una schiera di N combattenti. 
+
+quindi noi possiamo pensare alla struttura dati come ad una struct: 
+
+
+struct players_t {
+	char* combattenti; // puntatore ad un array di caratteri che ha dimensione N. 
+	int N; // numero di combattenti per ciascun giocatore; 
+	bool turno; // tiene traccia dei turni. 
+}; 
+
+
+struct partita_t {
+	players_t giocatori[2]; 
+}; 
+
+partita_t partita; 
+
+funzionalità esegui turno: controllo se i turni sono finiti per entrambi i giocatori, in tal caso guardo quanti giocatori rimangono al g.0 e al g.1., se il g.1 ha più giocatori del g.0 allora ha vinto il g.1 altrimenti, se il g.0 ha più giocatori del g.1 ha vinto il g.0. altrimenti, se sono uguali hanno pareggiato. 
+
+ALTRIMENTI: 
+se i turni NON sono finiti, e se è il turno del g.0, faccio inserire la posizione del giocatore da eliminare ed eseguo la elimina_combattente. poi controllo se il turno del g.0 non è l'ultimo e se non lo è allora decremento il conta_turni e metto di turno il g.1
+
+e poi faccio la stessa cosa con il g.1. 
+
+	
+
+ 

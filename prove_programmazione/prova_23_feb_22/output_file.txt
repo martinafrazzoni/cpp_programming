@@ -1,0 +1,1703 @@
+
+==== Inizio test reinizializzazione a vuoto senza stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 0 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test stampa senza reinizializzazione ====
+
+Eseguo il programma fornendo il seguente input: 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test reinizializzazione a un elemento, senza stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 paolo 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test reinizializzazione a un elemento, con stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 paolo 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- paolo
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test reinizializzazione a molti elementi ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+-------	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- paolo
+------- rita
+------- sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test doppia reinizializzazione con seconda a vuoto ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 2 1 0 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+-------	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test doppia reinizializzazione con seconda a un elemento ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 2 1 1 pippo 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+-------	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	pippo
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- pippo
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test doppia reinizializzazione con seconda a stesso numero di elementi ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 2 1 3 pippo pluto paperino 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+-------	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	pippo
+-------	pluto
+-------	paperino
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- pippo
+------- pluto
+------- paperino
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test doppia reinizializzazione con prima a vuoto e seconda a molti elementi ====
+
+Eseguo il programma fornendo il seguente input: 1 0 1 3 paolo rita sonia 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+-------	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- paolo
+------- rita
+------- sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test ricerca di elemento presente ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 3 rita 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Controlla se lavoratore è presente: 
+1
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+1
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test ricerca di elemento presente al primo posto ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 3 paolo 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Controlla se lavoratore è presente: 
+0
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test ricerca di elemento presente alll'ultimo posto ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 3 sonia 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Controlla se lavoratore è presente: 
+2
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+2
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test ricerca di elemento non presente ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 3 soniaa 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Controlla se lavoratore è presente: 
+-1
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+-1
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test ricerca di elemento in elenco vuoto ====
+
+Eseguo il programma fornendo il seguente input: 3 soniaa 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Controlla se lavoratore è presente: 
+-1
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+-1
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test ricerca di elemento in elenco reinizializzato a vuoto ====
+
+Eseguo il programma fornendo il seguente input: 1 0 3 soniaa 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Controlla se lavoratore è presente: 
+-1
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+-1
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test aggiornamento di un oggetto ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	paolo
+-*-*--*	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- paolo
+-*-*--* rita
+------- sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test aggiornamento di un oggetto in elenco vuoto ====
+
+Eseguo il programma fornendo il seguente input: 4 rita -*-*--* 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Indice non valido!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+Esco: input in stato d'errore o finito
+In questo test non controllo l'output del programma
+
+
+==== Inizio test aggiornamento di due oggetti ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----* 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+*-----*	paolo
+-*-*--*	rita
+-------	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+*-----* paolo
+-*-*--* rita
+------- sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test aggiornamento di un oggetto con una stringa troppo lunga ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----*- 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+Esco: input in stato d'errore o finito
+In questo test non controllo l'output del programma
+
+
+==== Inizio test aggiornamento di un oggetto non presente ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paola *-----* 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Indice non valido!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+Esco: input in stato d'errore o finito
+In questo test non controllo l'output del programma
+
+
+==== Inizio test salvataggio ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----* 4 sonia --*--** 5 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Turni salvati con successo!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+*-----*	paolo
+-*-*--*	rita
+--*--**	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+*-----* paolo
+-*-*--* rita
+--*--** sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test salvataggio e aggiornamento di un elemento ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----* 5 4 sonia --*--** 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Turni salvati con successo!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+*-----*	paolo
+-*-*--*	rita
+--*--**	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+*-----* paolo
+-*-*--* rita
+--*--** sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test salvataggio, aggiornamento di un elemento e nuovo salvataggio ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----* 5 4 sonia --*--** 5 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Turni salvati con successo!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Turni salvati con successo!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+*-----*	paolo
+-*-*--*	rita
+--*--**	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+*-----* paolo
+-*-*--* rita
+--*--** sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test salvataggio ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----* 4 sonia --*--** 5 1 3 pippo pluto paperino 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Turni salvati con successo!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-------	pippo
+-------	pluto
+-------	paperino
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+------- pippo
+------- pluto
+------- paperino
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test preparazione caricamento elenco vuoto ====
+
+Eseguo il programma fornendo il seguente input: 5 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test caricamento elenco vuoto ====
+
+Eseguo il programma fornendo il seguente input: 6 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test salvataggio per preparazione prossimi test ====
+
+Eseguo il programma fornendo il seguente input: 1 3 paolo rita sonia 4 rita -*-*--* 4 paolo *-----* 4 sonia --*--** 5 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci numero lavoratori: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+Inserisci nome lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Inserisci il nome del lavoratore di cui vuoi aggiornare i turni: 
+Inserisci i turni aggiornati del lavoratore: 
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Turni salvati con successo!
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+*-----*	paolo
+-*-*--*	rita
+--*--**	sonia
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+*-----* paolo
+-*-*--* rita
+--*--** sonia
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test caricamento ====
+
+Eseguo il programma fornendo il seguente input: 6 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+LMMGVSD 
+-*-----	
+*------	
+--*-*--	
+
+1. Inizializza elenco
+2. Stampa turni
+3. Trova indice
+4. Aggiorna turni
+5. Salva turni
+6. Carica turni
+7. Minimizza turni
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+LMMGVSD
+*-----* paolo
+-*-*--* rita
+--*--** sonia
+La seguente riga:
+-*-----	
+Non coincide con la riga attesa, ossia con:
+*-----* paolo
+Se ti sembra che invece la riga coincida e non riesci a
+capire perche' venga ritenuta diversa, allora controlla
+attentamente la presenza di eventuali spazi in piu' o in
+meno nella tua riga, o di caratteri di punteggiatura in
+piu' o in meno (tipo : ; , . accapo e cosÃ¬ via).
+
+Un altro errore comune e' il non aver inserito un accapo PRIMA
+della prima riga che mi aspetto di trovare. In tal caso, tale prima
+prima riga non e' effettivamente una riga a se stante, ma risulta attaccata
+alla riga precedente. Quando tu inserisci l'input manualmente, non ti accorgi
+di questo errore, perchÃ© inserisci tu i newline nel terminale. Ma tali newline
+non ci sono nell'output del programma.
+
+Il tuo programma ha superato tutti i test relativi ai punti che
+precedono il punto 6, ma non ha superato un test relativo al
+punto 6 (ossia l'ultimo test effettuato finora).
+
+Il test del punto 6 potrebbe essere fallito semplicemente perche'
+non hai ancora implementato il punto 6.
+
+Per poter accedere alla correzione anche del 6,
+devi prima aver implementato il punto 6 ed aver corretto
+gli errori che fanno fallire l'ultimo test.
+
+I docenti correggeranno SOLO i punti PRECEDENTI al punto 6
+
+Sono eseguito su un PC personale, non spedisco nulla.

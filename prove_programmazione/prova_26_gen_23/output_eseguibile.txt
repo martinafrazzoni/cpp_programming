@@ -1,0 +1,50 @@
+1. Inizializza sequenza
+2. Stampa sequenza
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa sequenza 2
+6. Stampa traccia
+7. Esci
+
+
+Inserisci il numero di spostamenti: 
+Memoria allocata correttamente!
+n vale: 1
+Inserisci carattere per inizializzare la sequenza:
+
+Memoria allocata correttamente!
+Sequenza inizializzata correttamente
+1. Inizializza sequenza
+2. Stampa sequenza
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa sequenza 2
+6. Stampa traccia
+7. Esci
+
+
+Pos:  
+Ecco stampata la sequenza degli spostamenti e le nuove coordinate: 
+> 
+(0 1) 
+1. Inizializza sequenza
+2. Stampa sequenza
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa sequenza 2
+6. Stampa traccia
+7. Esci
+
+
+Pos:  
+* * - 
+- - - 
+1. Inizializza sequenza
+2. Stampa sequenza
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa sequenza 2
+6. Stampa traccia
+7. Esci
+
+

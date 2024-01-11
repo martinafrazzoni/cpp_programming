@@ -1,0 +1,55 @@
+1. Inizializza matrice
+2. Aggiungi valore
+3. Stampa matrice
+4. Salva matrice
+5. Carica matrice
+6. Trova indice riga
+7. Esci
+
+
+
+
+
+Caricamento avvenuto con successo!
+1. Inizializza matrice
+2. Aggiungi valore
+3. Stampa matrice
+4. Salva matrice
+5. Carica matrice
+6. Trova indice riga
+7. Esci
+
+
+Inserisci il valore naturale n: 
+Inserisci le coordinate dove vuoi aggiungere il valore (righe, colonne): 
+1. Inizializza matrice
+2. Aggiungi valore
+3. Stampa matrice
+4. Salva matrice
+5. Carica matrice
+6. Trova indice riga
+7. Esci
+
+
++oo
+-*o
+ooo
+1. Inizializza matrice
+2. Aggiungi valore
+3. Stampa matrice
+4. Salva matrice
+5. Carica matrice
+6. Trova indice riga
+7. Esci
+
+
+1
+1. Inizializza matrice
+2. Aggiungi valore
+3. Stampa matrice
+4. Salva matrice
+5. Carica matrice
+6. Trova indice riga
+7. Esci
+
+

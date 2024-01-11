@@ -1,0 +1,140 @@
+la mia partita è così: 
+
+*-* <3>
+*** <3>
+
+1) Nella prima riga, la fila 0, io devo spostare di una posizione in avanti i combattenti partendo dal fondo. 
+
+f = 0 	s = 1
+
+for (int i = partita.N-1; i > 0; i++){
+	
+	//   i = 2
+	// *-*
+	   (true)		(i-1 = 2-1 = 1) => true 			(i-2 = 2-2 = 0) => falso
+	if(i>=s && partita.giocatore[0].combattenti[i-1] == '-' && partita.giocatore[0].combattenti[i-2] == '-'){ // questo if da false; 
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[i-s]; 
+		partita.giocatore[0].combattenti[i-s] = '*'; 
+	}
+	
+	// i = 1
+	//*-*
+	   (true)		(i-1 = 1-1 = 0) => false 				(i-2 = 1-2 = 1) => falso
+	if(i>=s && partita.giocatore[0].combattenti[i-1] == '-' && partita.giocatore[0].combattenti[i-2] == '-'){ // questo if da false; 
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[i-s]; 
+		partita.giocatore[0].combattenti[i-s] = '*'; 
+	}
+	
+	//i = 0; 
+	//*-*
+
+	   (false)		(i-1 = 1-1 = 0) => false 				(i-2 = 1-2 = 1) => falso
+	if(i>=s && partita.giocatore[0].combattenti[i-1] == '-' && partita.giocatore[0].combattenti[i-2] == '-'){ // questo if da false; 
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[i-s]; 
+		partita.giocatore[0].combattenti[i-s] = '*'; 
+	}
+	
+	
+
+Quindi nella prima funzione, ovvero che sposta i combattenti se le prossime s posizioni sono libere non fa niente. 
+Vediamo con la seconda: 
+
+2) Nella riga 0, sposto i combattenti nella posizione più alta possibile se le prossime s posizioni non sono libere. 
+
+for (int i = partita.N -1; i>=0; i--){
+	    i = 2; 
+	//*-* 
+	if(partita.giocatore[0].combattenti[i] == '-'){ false
+		
+		int j = i -1; 
+            while(j>=0 && partita.giocatore[0].combattenti[j] == '-'){
+                j--; 
+            }
+            if(j>=0){
+                partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[j]; 
+                partita.giocatore[0].combattenti[j] = '-'; 
+            }
+	}
+
+	    i = 1	
+	// *-*
+	if(partita.giocatore[0].combattenti[i] == '-'){ //true
+		int j = i-1  => j = 0
+		  true        false
+	   while(j>=0 && partita.giocatore[0].combattenti[j] == '-'){ // false
+		j--; 
+	   }
+	   if(j>=0){
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[j]; 
+                partita.giocatore[0].combattenti[j] = '-';
+	   }
+	}
+        ji 
+	*-*
+        -**
+// QUINDI IL TEST DI SPOSTAMENTO DI UNA POSIZIONE SU TRE HA AVUTO SUCCESSO. 
+
+// TEST SPOSTAMENTO DI DUE POSIZIONI SU TRE
+f = 0 	s = 2
+
+//ho eliminato il combattente quindi la partita è così
+*-- <3>
+*** <3>
+
+
+1) sposto i combattenti di s posizioni in avanti se sono tutte libere
+
+for (int i = partita.N-1; i >=0; i--){
+      //  i = 2	 
+	*--
+	   true     		 (i = 2 -> 2-1 = 1) => true		(i = 2 -> 2-2 = 0) => false
+	if(i>=s && partita.giocatore[0].combattenti[i-1] == '-' && partita.giocatore[0].combattenti[i-2] == '-'){
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[i-s];
+            	partita.giocatore[0].combattenti[i-s] = '*'; 
+        }
+	
+
+	// i = 1
+	  *--
+	    false                                false                                             false	
+	if(i>=s && partita.giocatore[0].combattenti[i-1] == '-' && partita.giocatore[0].combattenti[i-2] == '-'){
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[i-s];
+            	partita.giocatore[0].combattenti[i-s] = '*'; 
+	}
+
+
+	//i = 0
+	//*--
+	
+	    false                                false                                             false	
+	if(i>=s && partita.giocatore[0].combattenti[i-1] == '-' && partita.giocatore[0].combattenti[i-2] == '-'){
+		partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[i-s];
+            	partita.giocatore[0].combattenti[i-s] = '*'; 
+	}
+
+2) sposto i combattenti nella posizione più alta possibile se le s posizioni non sono libere
+
+	for(int i = partita.N -1; i >= 0; i--){
+		//   i = 2
+		// *--
+        if(partita.giocatore[0].combattenti[i] == '-'){ true
+            int j = i -1;  // j = 1
+		  true      true
+            while(j>=0 && partita.giocatore[0].combattenti[j] == '-'){
+                j--; // j = 0
+            }
+            if(j>=0){
+                partita.giocatore[0].combattenti[i] = partita.giocatore[0].combattenti[j]; 
+                partita.giocatore[0].combattenti[j] = '-'; 
+            }
+        }
+    }
+
+// j i
+// *--
+
+// --*
+
+
+
+

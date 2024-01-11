@@ -1,0 +1,50 @@
+1. Inizializza nastri
+2. Stampa composizione nastri
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa nuova posizione
+6. Trasporta oggetto
+7. Esci
+
+
+num_nastri_lett: 2 num_sez: 6
+Sequenza caricata con successo!
+1. Inizializza nastri
+2. Stampa composizione nastri
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa nuova posizione
+6. Trasporta oggetto
+7. Esci
+
+
+1. Inizializza nastri
+2. Stampa composizione nastri
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa nuova posizione
+6. Trasporta oggetto
+7. Esci
+
+
+Scelta errata
+1. Inizializza nastri
+2. Stampa composizione nastri
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa nuova posizione
+6. Trasporta oggetto
+7. Esci
+
+
+num_nastri_lett: 2 num_sez: 6
+Sequenza caricata con successo!
+1. Inizializza nastri
+2. Stampa composizione nastri
+3. Salva sequenza
+4. Carica sequenza
+5. Stampa nuova posizione
+6. Trasporta oggetto
+7. Esci
+
+
