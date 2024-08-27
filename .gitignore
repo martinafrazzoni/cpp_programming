@@ -22,3 +22,5 @@ prove_programmazione/23_feb_23_NON_CAPITO.cpp
 prove_programmazione/funzione_esegui_turno.cpp
 prove_programmazione/input_type.cpp
 
+#ignora la cartella pc_esempi_codice 
+pc_esempi_codice/
