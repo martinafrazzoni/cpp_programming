@@ -25,9 +25,6 @@ prove_programmazione/input_type.cpp
 #ignora la cartella pc_esempi_codice 
 pc_esempi_codice/
 
-#ignora il file gitignore
-.gitignore
-
 #nascondi cartella .vscode e la cartella esempi_random
 .vscode/ 
 esempi_random/
